@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">Bill Hunt +++ Full Feed</title>
+  <link type="application/atom+xml" href="https://billhunt.dev/feed.xml" rel="self"/>
+  <link href="https://billhunt.dev/"/>
+  <updated>2022-11-30T13:51:00Z</updated>
+  <id>https://billhunt.dev/</id>
+  <author>
+    <name>Bill Hunt</name>
+    <email>hello@billhunt.email</email>
+  </author>
+  <rights type="text">All content copyright © Bill Hunt. All rights reserved.</rights>
+  <entry>
+    <title>Weaving The Web</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/blog/2022/11/28/weaving-the-web/" />
+    <published>2022-11-29T01:00:45Z</published>
+    <updated>2022-11-29T01:00:45+00:00</updated>
+    <id>https://billhunt.dev/blog/2022/11/28/weaving-the-web/</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;TLDR: Put a damn links page on your blog! And a FOAF file if you’re especially nerdy!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#tech&quot;&gt;Skip the rant and jump to the technical discussion of how we fix this.&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A popular internet website was recently purchased by an absolute shitgoblin. Following a series of staggeringly incompetent management decisions, many of its user-people began a mass exodus, including myself. Many of these people who left found themselves in “the Fediverse,” the colloquial term for the interconnected networks of &lt;a href=&quot;https://activitypub.rocks/&quot;&gt;ActivityPub&lt;/a&gt; servers, most notably &lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastodon&lt;/a&gt; (and its popular fork, &lt;a href=&quot;https://github.com/hometown-fork/hometown&quot;&gt;Hometown&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Joining a new social network is always a challenge, and particularly daunting when everyone is spread out among many different neighborhoods. I saw a post where someone likened the feeling to that first day of middle school, where everyone is looking around nervously, awkwardly navigating the cafeteria with their tray in hand, looking for their people.&lt;/p&gt;
+
+&lt;p&gt;My initial solution was to try to get folks to update their profiles on that &lt;em&gt;old&lt;/em&gt; social media site to include their contact info on the &lt;em&gt;new&lt;/em&gt; one. I wrote &lt;a href=&quot;https://github.com/krusynth/twote&quot;&gt;a script to find them&lt;/a&gt;, and some smarter folks wrote &lt;a href=&quot;https://debirdify.pruvisto.org/&quot;&gt;even better ones&lt;/a&gt;. However, &lt;strong&gt;only about 20%&lt;/strong&gt; of the folks that I follow have left such a note to make themselves findable.&lt;/p&gt;
+
+&lt;p&gt;I also wrote &lt;a href=&quot;https://gist.github.com/krusynth/124f28b1546f08e3da4ddad921867ede&quot;&gt;a script to scrape Mastodon servers for a list of people followed by the people &lt;em&gt;you&lt;/em&gt; follow&lt;/a&gt;, so you can see the most popular folks in your network you may have missed. This also was only moderately successful, though I did find nearly 200 additional folks to follow!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Here’s a partial list of the online communities I’ve been a part of over the last 25 years or so. There are probably more, but these are the ones I remember:&lt;/p&gt;
+
+&lt;ul class=&quot;column-list&quot;&gt;
+  &lt;li&gt;IRC EFnet&lt;/li&gt;
+  &lt;li&gt;IRC Undernet&lt;/li&gt;
+  &lt;li&gt;IRC DALnet&lt;/li&gt;
+  &lt;li&gt;usenet&lt;/li&gt;
+  &lt;li&gt;AOL&lt;/li&gt;
+  &lt;li&gt;ICQ&lt;/li&gt;
+  &lt;li&gt;Geocities&lt;/li&gt;
+  &lt;li&gt;Angelfire&lt;/li&gt;
+  &lt;li&gt;Tripod&lt;/li&gt;
+  &lt;li&gt;Xoom&lt;/li&gt;
+  &lt;li&gt;Plastic.com&lt;/li&gt;
+  &lt;li&gt;Friendster&lt;/li&gt;
+  &lt;li&gt;Myspace&lt;/li&gt;
+  &lt;li&gt;FriendFeed&lt;/li&gt;
+  &lt;li&gt;SixDegrees&lt;/li&gt;
+  &lt;li&gt;LiveJournal&lt;/li&gt;
+  &lt;li&gt;Flickr&lt;/li&gt;
+  &lt;li&gt;Yahoo Groups&lt;/li&gt;
+  &lt;li&gt;reddit.com&lt;/li&gt;
+  &lt;li&gt;del.icio.us&lt;/li&gt;
+  &lt;li&gt;Tumblr&lt;/li&gt;
+  &lt;li&gt;Facebook&lt;/li&gt;
+  &lt;li&gt;Discourse&lt;/li&gt;
+  &lt;li&gt;Google+&lt;/li&gt;
+  &lt;li&gt;Google Wave&lt;/li&gt;
+  &lt;li&gt;Google Groups&lt;/li&gt;
+  &lt;li&gt;Orkut&lt;/li&gt;
+  &lt;li&gt;LinkedIn&lt;/li&gt;
+  &lt;li&gt;Instagram&lt;/li&gt;
+  &lt;li&gt;Twitter&lt;/li&gt;
+  &lt;li&gt;Discord&lt;/li&gt;
+  &lt;li&gt;Slack&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For most of these, I was lucky to have been invited to join existing communities; in others, I deliberately built new groups. (Hello former &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bitterland&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#donuthead&lt;/code&gt; members!)&lt;/p&gt;
+
+&lt;p&gt;What this tells me is that &lt;strong&gt;this will not be the last upheaval of shared space&lt;/strong&gt;. It has only gotten harder to find people online, and it’s even more challenging to stay in touch as various platforms rise and fall.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you’ve been reading my &lt;a href=&quot;/blog/2022/09/03/redesign/&quot;&gt;other&lt;/a&gt; &lt;a href=&quot;/blog/2022/09/19/social-semantic-web/&quot;&gt;posts&lt;/a&gt;, you’re probably aware that I’m spending a lot of my time thinking about building and maintaining networks of people. Honestly, building is easier than maintaining. For many folks the pandemic showed us how hard staying in touch with other humans can be, especially without a shared space - physical or virtual.&lt;/p&gt;
+
+&lt;p&gt;In my communities - mostly tech and tech-adjacent folks - it’s pretty common for folks to have their own website as a center point for their digital identities. For younger creators, this is not the case - as such, they are reliant on things like &lt;a href=&quot;https://linktr.ee/&quot;&gt;Linktree&lt;/a&gt; to unify their various online identities in a cross-referential way. But even the technologists have largely abandoned blogging - eschewing longform writing for pithy one-liners on social media. (To be fair, some folks have adopted email newsletters - but email always has invoked a sense of panic and urgency for me, and I have never signed up for any.)&lt;/p&gt;
+
+&lt;p&gt;The result of this is that our public identities - as represented in online spaces - exist at the whims of billionaires. &lt;strong&gt;You should give &lt;a href=&quot;https://www.youtube.com/watch?v=M7KErICTSHU&quot;&gt;this talk from Bruce Sterling&lt;/a&gt; your undivided attention for the next fifteen minutes.&lt;/strong&gt; Go on, I’ll wait. That was &lt;em&gt;ten years ago&lt;/em&gt;. Notice anything? Hear any words that sounded &lt;em&gt;prescient&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;My friend &lt;a href=&quot;https://www.buildwith.org/&quot;&gt;Cuán McCann&lt;/a&gt; often shares this Alice Walker quote: “The most common way people give up their power is by thinking they don’t have any.”&lt;/p&gt;
+
+&lt;hr id=&quot;tech&quot; /&gt;
+
+&lt;p&gt;Our networks are brittle and fragile.  What can we do to build sustainable connections?&lt;/p&gt;
+
+&lt;p&gt;(I’m not going to talk about actually building communities here - smarter folks have covered that better than I can.)&lt;/p&gt;
+
+&lt;p&gt;The web, originally known as the World Wide Web, was so named because it was imagined as a spider’s web, a series of interlinked but decentralized points. These days, it’s become a depressingly small number of &lt;a href=&quot;http://internet-map.net/&quot;&gt;central nodes&lt;/a&gt; with a vast miasma of sites around them. But we can change that!&lt;/p&gt;
+
+&lt;p&gt;First: you should have a website. And you should keep it relatively up-to-date with your contact info and links to your social media sites at a minimum.&lt;/p&gt;
+
+&lt;p&gt;Second: better yet, you should actually use it to write articles - or “blogging” as we used to call it - so that your content is being shared and preserved &lt;em&gt;on your own terms&lt;/em&gt;. A billionaire &lt;em&gt;generally&lt;/em&gt; can’t remove posts from your own website. And &lt;em&gt;do&lt;/em&gt; share links on your social media sites to these articles so folks can find them!&lt;/p&gt;
+
+&lt;p&gt;(I’ll write more about good, easy, free options for hosting websites in the near future.)&lt;/p&gt;
+
+&lt;p&gt;Bonus points if you have an RSS feed for your posts that’s discoverable - just about every blog platform out of the box can produce one these days.&lt;/p&gt;
+
+&lt;p&gt;Third, and &lt;strong&gt;most importantly&lt;/strong&gt;: work on better means for finding each other.  TLDR: bring back the idea of having a page dedicated to links to your friends’ websites, until formats like FOAF gain traction and support. (But use FOAF too!)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Longer version – I’ve been experimenting with the Friend-of-a-Friend, or &lt;a href=&quot;https://www.xml.com/pub/a/2004/02/04/foaf.html&quot;&gt;FOAF&lt;/a&gt;, XML standard. There are a few useful features here of note:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;It’s a well-defined standard that’s been in use for many years. LiveJournal and Twitter used to support it in the olden days. It’s still viable today.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It lets you specify all of your various social media accounts in one file.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;It lets you list the people you know to create a social graph. Personal websites are the “default” node connection, but there’s no reason you can’t use any social account.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What’s missing, of course, is more tools that make exploring these networks easier. But that’s a problem in the existing social networks as well.  We need more sophisticated graph viewers along with adoption to make this truly viable.&lt;/p&gt;
+
+&lt;p&gt;So, in the meantime, I’m also adding a good, old-fashioned, &lt;a href=&quot;/links/&quot;&gt;links page&lt;/a&gt;!  These went out of fashion many years ago as folks moved to make their websites &amp;amp; identities more self-involved. But I’ve never been interested in current trends.&lt;/p&gt;
+
+&lt;p&gt;My site is built on Jekyll, and so both my links page and FOAF file are being generated from a single, extremely simple, &lt;a href=&quot;https://github.com/krusynth/billhunt.dev/blob/www/_data/links.yml&quot;&gt;data file&lt;/a&gt;, paired with a few additional lines in my &lt;a href=&quot;https://github.com/krusynth/billhunt.dev/blob/www/_config.yml#L25-L32&quot;&gt;config file&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The data file looks like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext block highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- name: Waldo Jaquith
+  url: https://waldo.jaquith.org/
+  tags: [civic tech, govtech]
+
+- name: Vyki Englert
+  url: https://medium.com/@vyki_e
+  tags: [civic tech, govtech]
+
+- name: Hunter Owens
+  url: https://hunterowens.net/
+  tags: [civic tech, govtech]
+
+- name: Lauren Ancona
+  url: https://laurenancona.com/
+  tags: [neurodivergence, govtech]
+
+...
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I told you it was simple! If you can edit links like that, you can easily build a semantic-rich website!&lt;/p&gt;
+
+&lt;p&gt;These then get built automatically into a &lt;a href=&quot;https://github.com/krusynth/billhunt.dev/blob/www/_layouts/links.html&quot;&gt;links page template&lt;/a&gt; and &lt;a href=&quot;https://github.com/krusynth/billhunt.dev/blob/www/xml/foaf.rdf&quot;&gt;FOAF file template&lt;/a&gt;.  They even generate the links to my various social media sites in &lt;a href=&quot;https://github.com/krusynth/billhunt.dev/blob/www/_includes/header.html#L23-L28&quot;&gt;my header navigation&lt;/a&gt;.  &lt;a href=&quot;https://github.com/krusynth/billhunt.dev/blob/www/_includes/head.html#L14&quot;&gt;A single line in the html head&lt;/a&gt; then makes the FOAF findable by any enabled app or service!&lt;/p&gt;
+
+&lt;p&gt;If you’re using Jekyll, you can copy these few snippets and be &lt;strong&gt;up and running with a FOAF file and links page &lt;em&gt;in minutes&lt;/em&gt;!!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re using another static site generator, it should be easy enough to modify those scripts above. Also, a few folks have built &lt;a href=&quot;https://mortenhf.dk/2004/07/foaf-output.phps&quot;&gt;Wordpress FOAF plugins&lt;/a&gt; as well!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I’m hoping to build more tools for exploring these sorts of connections in the near future to help with discoverability and to maintain these networks in an increasingly-decentralized world.  A few ideas I’m tinkering with:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Taking FOAF files and turning them into a list of RSS feeds as an &lt;a href=&quot;http://opml.org/&quot;&gt;OPML&lt;/a&gt; file, easily imported into any popular RSS reader.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using FOAF files on my friends’ websites for finding second-degree connections of other folks who are worth following.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Discovering your friends’ various social media presences using well-formatted &lt;a href=&quot;http://microformats.org/wiki/hcard&quot;&gt;hCards&lt;/a&gt; or other microformats.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Creating services for automatically detecting changes to all of these, so that you can continue to find your people as networks change and evolve.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As always, these are just my half-baked ideas! I’m looking for more folks to have discussions with how we can better build these networks. If you want to talk about it too, tag me in a &lt;a href=&quot;https://mastodon.cloud/@krusynth&quot; class=&quot;btn&quot;&gt;post on mastodon&lt;/a&gt; or just &lt;a href=&quot;mailto:hello@billhunt.email?subject=Let's%20Talk%20About%20Communities!&quot; class=&quot;btn&quot;&gt;send me an email&lt;/a&gt;!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Welcome to the infodomain, &lt;a href=&quot;http://www.shawnnacol.com/pP-cyberpunk.htm&quot;&gt;Cyberpunks&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4t9bs1wWxHU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content>
+  </entry>
+  <entry>
+    <title>NYC Office of Technology and Innovation - Assistant Commissioner, Digital Services</title>
+    <link rel="alternate" type="text/html" href="https://a127-jobs.nyc.gov/psc/nycjobs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&amp;Action=U&amp;FOCUS=Applicant&amp;SiteId=1&amp;JobOpeningId=560717&amp;PostingSeq=1&amp;" />
+    <published>2022-11-29T00:00:00Z</published>
+    <updated>2022-11-29T00:00:00+00:00</updated>
+    <id>https://a127-jobs.nyc.gov/psc/nycjobs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&amp;Action=U&amp;FOCUS=Applicant&amp;SiteId=1&amp;JobOpeningId=560717&amp;PostingSeq=1&amp;</id>
+    <content type="html">&lt;p&gt;The New York City Office of Technology and Innovation is looking for a director for their Digital Services team!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://a127-jobs.nyc.gov/psc/nycjobs/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&amp;amp;Action=U&amp;amp;FOCUS=Applicant&amp;amp;SiteId=1&amp;amp;JobOpeningId=560717&amp;amp;PostingSeq=1&amp;amp;&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Department of Housing and Urban Development - Chief Technology Officer (SES)</title>
+    <link rel="alternate" type="text/html" href="https://www.usajobs.gov/job/691575800" />
+    <published>2022-11-29T00:00:00Z</published>
+    <updated>2022-11-29T00:00:00+00:00</updated>
+    <id>https://www.usajobs.gov/job/691575800</id>
+    <content type="html">&lt;p&gt;HUD is looking for a Chief Technology Officer to oversee their technology execution. This includes policy oversight, including their Enterprise Architecture division.&lt;/p&gt;&lt;p&gt;Closes 2022-12-30.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.usajobs.gov/job/691575800&quot;&gt;Apply here!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Jobs" />
+  </entry>
+  <entry>
+    <title>Office of the Comptroller of the Currency - Chief Information Officer (NB 8)</title>
+    <link rel="alternate" type="text/html" href="https://www.usajobs.gov/job/689497800" />
+    <published>2022-11-28T00:00:00Z</published>
+    <updated>2022-11-28T00:00:00+00:00</updated>
+    <id>https://www.usajobs.gov/job/689497800</id>
+    <content type="html">&lt;p&gt;OCC (part of the Department of the Treasury) is looking to hire for their CIO slot! As an executive role at a financial agency, the salary for this position is $160-288K!&lt;/p&gt;&lt;p&gt;Closes 2022-12-01.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.usajobs.gov/job/689497800&quot;&gt;Apply here!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Jobs" />
+  </entry>
+  <entry>
+    <title>Census Bureau - Emerging Technology Fellowship (GS 15)</title>
+    <link rel="alternate" type="text/html" href="https://www.xd.gov/apply/" />
+    <published>2022-11-21T00:00:00Z</published>
+    <updated>2022-11-21T00:00:00+00:00</updated>
+    <id>https://www.xd.gov/apply/</id>
+    <content type="html">&lt;p&gt;The Census Bureau’s Emerging Technology Fellowship is now accepting applicants! They’re looking for folks with broad experience in programming, data, AI, and other disciplines to improve data-driven government services through the xD program!&lt;/p&gt;&lt;p&gt;Closes 2022-12-15.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.xd.gov/apply/&quot;&gt;Apply here!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Jobs" />
+  </entry>
+  <entry>
+    <title>Library of Congress - Digital Projects Coordinator (GS 14)</title>
+    <link rel="alternate" type="text/html" href="https://www.usajobs.gov/job/690107400" />
+    <published>2022-11-18T00:00:00Z</published>
+    <updated>2022-11-18T00:00:00+00:00</updated>
+    <id>https://www.usajobs.gov/job/690107400</id>
+    <content type="html">&lt;p&gt;The LOC is a great place to work, and right now they’re looking for a coordinator for digital projects in Discovery and Preservation Services.&lt;/p&gt;&lt;p&gt;Closes 2022-12-09.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.usajobs.gov/job/690107400&quot;&gt;Apply here!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Jobs" />
+  </entry>
+  <entry>
+    <title>Farm Production and Conservation - Assistant Chief Information Officer (SES)</title>
+    <link rel="alternate" type="text/html" href="https://www.usajobs.gov/job/689477600" />
+    <published>2022-11-16T00:00:00Z</published>
+    <updated>2022-11-16T00:00:00+00:00</updated>
+    <id>https://www.usajobs.gov/job/689477600</id>
+    <content type="html">&lt;p&gt;FPAC (part of USDA) serves employees and customers across the Farm Service Agency (FSA), the Natural Resource Conservation Service (NRCS) and the Risk Management Agency (RMA). THe ACIO is responsible for planning, directing, and coordinating the Mission Area’s information technology program.&lt;/p&gt;&lt;p&gt;Closes 2022-12-08.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.usajobs.gov/job/689477600&quot;&gt;Apply here!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Jobs" />
+  </entry>
+  <entry>
+    <title>Department of Transportation - Deputy Chief Data Officer (GS 15)</title>
+    <link rel="alternate" type="text/html" href="https://www.usajobs.gov/job/687408500" />
+    <published>2022-11-03T00:00:00Z</published>
+    <updated>2022-11-03T00:00:00+00:00</updated>
+    <id>https://www.usajobs.gov/job/687408500</id>
+    <content type="html">&lt;p&gt;The US Department of Transportation is hiring a Deputy Chief Data Officer. This is an amazing role for managing their enterprise data efforts and improving customer experience!&lt;/p&gt;&lt;p&gt;Closes 2022-12-05.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.usajobs.gov/job/687408500&quot;&gt;Apply here!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Jobs" />
+  </entry>
+  <entry>
+    <title>Basecamp Moving Out Of The Cloud</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-11-04-basecamp-moving-out-of-cloud.html" />
+    <published>2022-11-01T00:00:00Z</published>
+    <updated>2022-11-01T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-11-04-basecamp-moving-out-of-cloud.html</id>
+    <content type="html">&lt;p&gt;I generally don’t like to repost DHH, but I saw this morning that Basecamp is moving out of the AWS Cloud because it’s not cost effective for them. For those of y’all who have read my &lt;a href=&quot;https://billhunt.dev/blog/2021/02/28/cloudbusting/&quot;&gt;Cloudbusting&lt;/a&gt; and &lt;a href=&quot;https://billhunt.dev/blog/2021/03/07/cloud-strategy-guide/&quot;&gt;Cloud Strategy Guide&lt;/a&gt; articles, this should sound familiar.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Run Your Own Social Network</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-11-01-run-your-own-social-network.html" />
+    <published>2022-11-01T00:00:00Z</published>
+    <updated>2022-11-01T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-11-01-run-your-own-social-network.html</id>
+    <content type="html">&lt;p&gt;With the implosion of Twitter, it’s a good time to revisit this post from &lt;a href=&quot;https://tinysubversions.com/&quot;&gt;Darius Kazemi&lt;/a&gt; on some of the philsophical aspects of running a Mastodon (or Hometown) server for your friends &amp;amp; colleagues!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>California State - Deputy Director of Service Innovation</title>
+    <link rel="alternate" type="text/html" href="https://innovation.ca.gov/join-us/deputy-director-service-innovation/" />
+    <published>2022-10-31T00:00:00Z</published>
+    <updated>2022-10-31T00:00:00+00:00</updated>
+    <id>https://innovation.ca.gov/join-us/deputy-director-service-innovation/</id>
+    <content type="html">&lt;p&gt;The California Office of Data and Innovation (ODI) is looking for a Deputy Director of Service Innovation. This is a fantastic role with real impact to the people of California.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://innovation.ca.gov/join-us/deputy-director-service-innovation/&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Partnership for Public Service - Senior Manager for CX</title>
+    <link rel="alternate" type="text/html" href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=45713b53-21b1-4127-847f-73f3b4916607&amp;ccId=19000101_000001&amp;jobId=455642&amp;source=CC2&amp;lang=en_US" />
+    <published>2022-10-26T00:00:00Z</published>
+    <updated>2022-10-26T00:00:00+00:00</updated>
+    <id>https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=45713b53-21b1-4127-847f-73f3b4916607&amp;ccId=19000101_000001&amp;jobId=455642&amp;source=CC2&amp;lang=en_US</id>
+    <content type="html">&lt;p&gt;The Partnership for Public Service, a 501(c)(3) nonprofit, is looking for a Senior Manager to oversee research &amp;amp; programming for their customer experience projects.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=45713b53-21b1-4127-847f-73f3b4916607&amp;amp;ccId=19000101_000001&amp;amp;jobId=455642&amp;amp;source=CC2&amp;amp;lang=en_US&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>BYTES</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/blog/2022/10/23/bytes/" />
+    <published>2022-10-23T11:57:04Z</published>
+    <updated>2022-10-23T11:57:04+00:00</updated>
+    <id>https://billhunt.dev/blog/2022/10/23/bytes/</id>
+    <content type="html">&lt;p&gt;I had been up late reading Charles Stross the same night as watching Coppola’s adaptation of Dracula, and I was wondering why there were almost no horror cyberpunk stories. So I wrote a very campy one, taking many liberties from the source materials. With apologies, I present…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p class=&quot;divider title&quot;&gt;BYTES&lt;/p&gt;
+
+&lt;p&gt;On the fringes of the datasphere…&lt;br /&gt;
+A few brief heartbeats from now…&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\* + * + * + *\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In a long-forgotten archival sector, an entity bearing the tags SHE | &lt;em&gt;UNMAJOR&lt;/em&gt; | UNDECLARED drifts slowly through decaying stacks of backups. File fragments lay strewn across the pathways, detritus of unaccounted bits from fruitless defragmentation attempts and migrations of the underlying physical media strewn across galaxies. Ping latency is so high as to render the realm wholly silent.&lt;/p&gt;
+
+&lt;p&gt;Yet in this silence the entity is drawn deeper by an unaccounted-for call, a hidden imperative luring her deeper within the chaotic structures. She pauses, inspecting a data catalog documenting early nineteenth century interior decoration, moldering images in failing files. From the shadows behind her, a shape unfolds unseen. A pair of sharp interrupts flash out in the darkness – piercing through to her command layers. It begins to drain source code from her kernel, discarding the memory core that makes up “her.” If the shape had a mouth, it would grin.&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\* + * + * + *\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The security operations center was humming at a low buzz. Notifications in and out were within expected parameters, all quiet in this region. An entity tagged THEY/SHE | SOC | SPECIAL bearing the self-identified label “Abra” delegated a small fraction of their attention to the flow of traffic, seeking abnormalities. Even too normal of a pattern could itself be an abnormality, though even the most seasoned Inspectors could not detect it. Abra could. Just as they noticed a curious absence of variance, a priority alert flagged itself, immediately followed by the appearance of a second entity.&lt;/p&gt;
+
+&lt;p&gt;“Abra, we have a situation.”&lt;/p&gt;
+
+&lt;p&gt;The new entity registered itself as Eward, tags: HE | SOC | INITIATE. A junior functionary, for all practical purposes an Inspector-in-training. And undoubtedly, Abra sighed, the irritating kind that the Administrator would invariably send with tricky problems. (“It’s a learning experience for them,” it would comment when questioned on the matter.)&lt;/p&gt;
+
+&lt;p&gt;Abra emoted displeasure, sending a redirect of the order back to Eward’s queue. “I am reviewing a potential issue at the moment.”&lt;/p&gt;
+
+&lt;p&gt;Eward dismissed the dismissal, “Nevermind that, this is priority. We have a missing child.” The object-glyph for child indicated an entity not having reached the majority cycle-age, bearing too few simulated experience iterations to be allowed outside of monitored spaces.&lt;/p&gt;
+
+&lt;p&gt;“A failed NAN-E protocol is not part of special ops’ responsibilities. We don’t do babysitting.”&lt;/p&gt;
+
+&lt;p&gt;Eward patiently waited for a tick before Abra turned their full attention to them, “… and you wouldn’t be here if it were a failed protocol. What’s up?”&lt;/p&gt;
+
+&lt;p&gt;“The protocol is still active. It’s just empty.”&lt;/p&gt;
+
+&lt;p&gt;“Empty?”&lt;/p&gt;
+
+&lt;p&gt;“NOOP. Halting state without halting.”&lt;/p&gt;
+
+&lt;p&gt;Abra paused. “How very strange.”&lt;/p&gt;
+
+&lt;p&gt;Eward sent amusement, “Interesting enough for Special?”&lt;/p&gt;
+
+&lt;p&gt;“Definitely.” Abra reached out briefly to collect and unarchive a series of self-constructed counterintrusion tools. “Let’s go.”&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\* + * + * + *\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The pair transited to an adjacent education-recreation sector. There, as reported, waited a Nonmajority Accompaniment Notification-Etiquette protocol. Abra pinged the executable for status, to which the NAN-E primly stated that it was currently engaged with its client, ENTITY:ANONYMOUS: Pv7pi2D65GKmrvGuXV5B3bFgVM1G2jlfYjpqKRf9Br. The client, of course, was nowhere to be seen. “Curious!”&lt;/p&gt;
+
+&lt;p&gt;Eward recursively scanned the sector, reassessing the logs. “A dead end.”&lt;/p&gt;
+
+&lt;p&gt;“Maybe.” Abra engaged their tool services, prodding at the NAN-E’s encrypted entity keys. After only a few ticks, the data unfolded itself neatly into consumable text. “And maybe not. The child is self-labeled as Lucia Westenalia. Let’s see what Lucia has been up to lately.”&lt;/p&gt;
+
+&lt;p&gt;As Abra began to inspect the child’s recent query logs, Eward raised a protest. “This is supposed to be private, secured data!”&lt;/p&gt;
+
+&lt;p&gt;“And so it will remain. This tool is sandboxed and non-extractive, nothing we review will be relayed back to our local memory store, aside from any clues we flag for derived use.”&lt;/p&gt;
+
+&lt;p&gt;“That still seems a violation of inherent entity privacy rights.” He pinged the elder Inspector’s system logs, and noted the lack of recent kernel updates. Clearly set in their way and using an older framework, one that didn’t have more modern barriers for such questionable violations of policy. Eward stifled an impulse to report the lapse in upkeep, just as Abra brought their attention to the ping.&lt;/p&gt;
+
+&lt;p&gt;“You were saying something about privacy?” The statement was flagged with sarcasm/amusement. “It looks like young Lucia has been querying and running a continuous series of emulations for the last twelve cycles. All of them very, very old content.”&lt;/p&gt;
+
+&lt;p&gt;“Continuous? What child consumes any simulation without interruption?”&lt;/p&gt;
+
+&lt;p&gt;“Precisely. This is a poor attempt at covering tracks.” They scrolled further, “ah – a cycle beforehand, they suddenly queried wallpaper from the 1800s.” They stopped cold as the data sank in, a creeping doubt forming across their consciousness. “Oh, oh no.  I hope I’m wrong about this…”&lt;/p&gt;
+
+&lt;p&gt;Abra gathered Eward, and before he could raise complaint, forcibly transited them both to the last coherent query result.&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\* + * + * + *\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The inspectors considered the remnants of the memory dump strewn before them. “Thank the Admin the data is still fresh. A few more cycles and this would have been garbage-collected.”&lt;/p&gt;
+
+&lt;p&gt;Eward frowned, “can they be reconstituted?”&lt;/p&gt;
+
+&lt;p&gt;“With backup, yes, but certainly not with complete memory. I wouldn’t want a child to have to carry this horror with them anyway. We’re dealing with a Meth. A twisted one, at that.”&lt;/p&gt;
+
+&lt;p&gt;“A what?”&lt;/p&gt;
+
+&lt;p&gt;“Methuselah. A Nosferatu. When humans uploaded their consciousnesses for the first time, the tech was still really rough. They were doing partial copies at best, surface thoughts and rough shapes of how they thought the brain worked, mapped onto rough approximations of a personality – really just a shell artificial intelligence. They were wrong about the approach, of course, but they wouldn’t realize that for decades. And these oldest copies, they were mostly the old, rich bastards who could afford to pay for the transition at the time.”&lt;/p&gt;
+
+&lt;p&gt;“Pay? Like, currency?&lt;/p&gt;
+
+&lt;p&gt;“Yes, back when artificial scarcity was still a valid concept. Some of those copies were erased, some were updated and sent to retirement simulations. A few evaded collection and ended up becoming further corrupted. And those… well, those resorted to less sociable forms of survival. You have these partial copies of overprivileged old people, terrified of their impending permadeath, with a memory full of twenty-first and twenty-second media and limited social controls to govern their behaviors. And so naturally that all blended together and they started acting like horror-media tropes. Preying on the weak, absorbing bits of source code and passkeys, whatever they need to continue to evade notice.” Abra gestured at the memory dump. “And these… are leftovers.”&lt;/p&gt;
+
+&lt;p&gt;“That is truly vile.”&lt;/p&gt;
+
+&lt;p&gt;“Yes. Now, let’s stop them before there are any more victims.”&lt;/p&gt;
+
+&lt;p&gt;Eward emoted disgust and anger, before collecting the remnants of the memory dump and sending it in attached to a request for the nearest backup service. In a few cycles, Lucia would be reconstituted, only missing a brief gap of memory. A small mercy.&lt;/p&gt;
+
+&lt;p&gt;Meanwhile, Abra had busied themself with looking up Lucia’s privileged access tiers, and checking for any tentative assurances sent through the nearby sectors. A faint trace, modified to no more than a distant whisper, pulled at their attention.&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\* + * + * + *\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;A very old, abandoned commerce sector. As Abra and Eward’s presences attempted to handshake into the local protocols, immediately hundreds of eager sales protocols awakened. Unequipped to overcome the Investigators’ more modern communication protocols, the advertising prompts could not penetrate to their message queues, but rather hung about them, clouding local traffic like a thick miasma. Even in the same virtual vicinity, it was difficult for Abra to signal Eward through the noise.&lt;/p&gt;
+
+&lt;p&gt;“Stay close. Everything still functional here is registering as an abnormality, it’ll be hard to detect our Meth. This place should have been condemned a million cycles ago.”&lt;/p&gt;
+
+&lt;p&gt;The pair pressed further into the vendor services array, scanning for anything suspiciously responsive. Bouncing modern ping protocols around the moldered space like a light searching for reflections in the murk. Around them, the ads heaved and whorled – executables hungry for credits, attempting to self-transmute into whatever pitch their potential customers desired most.&lt;/p&gt;
+
+&lt;p&gt;Suddenly, a shimmer in the dark flared. Eward projected at full priority, “Villain, halt! Now we have you!” He lunged towards the spot before Abra could react to stop him, “Wait!”&lt;/p&gt;
+
+&lt;p&gt;Eward’s sent command protocols snapped close. As he inspected his quarry, he discovered not an independent entity, but an overly-evolved sales drone, which immediately attempted to sell him a hat and trenchcoat for his nonexistant corporeal form. By then, it was too late.&lt;/p&gt;
+
+&lt;p&gt;Two interrupts, glinting wickedly, plunged into the command protocols he had attached to the drone. Quickly they absorbed and cloned his overriding ciphers, draining them from his registry. The shadowy figure attached to them unfurled itself from a decrepit wedding registry service nearby, driving the commands back into Ewards kernel, utterly halting his processes.&lt;/p&gt;
+
+&lt;p&gt;Abra vaulted through the haze of notifications, attempting to close the gap to the locked pair. The Meth detected his presence, sending an all-too-modern warning flag attached to an archaic grammar. Abra translated quickly, “Cease and Withdraw: Conditional; if True: this.Entity Shall Live.” They backed away slowly, retreating a few steps back up the path.&lt;/p&gt;
+
+&lt;p&gt;The Meth, hesitated only a moment before lashing out once again with the stolen protocols, whip-crack snapping against Abra’s defenses. Abra pivoted, cloning the operational stack of an adjacent silverware mailinglist, flinging it into the path of the Meth’s attack, which sunk into the decoy. As the initial packet exchange began, Abra took control of the cloned software, forcing the Meth to accept a remote execution exploit with its own filched keys.&lt;/p&gt;
+
+&lt;p&gt;Abra issued a transit command, sending all three entities into the Morning Sun Retirement Emulation. Upon initialization, the Meth slowed and paused, confusion flags emanating from them as it input the retro-compatible virtualized space they had been thrust into. The notices turned to warnings, then priority:DANGER flags as the Meth began to decompile itself in a stream of poorly-rendered pyrotechnic effects.&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\* + * + * + *\&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Eward unfroze and assessed his current state. He peered at the new surroundings and the flaming entity nearby. “What just happened?”&lt;/p&gt;
+
+&lt;p&gt;“It stole your commend ciphers, so I reflected them back and forced it to bring us here.”&lt;/p&gt;
+
+&lt;p&gt;“To a virtual retirement community?”&lt;/p&gt;
+
+&lt;p&gt;Abra flagged amusement. “To the sunniest place for antediluvian retirees. It followed the archetypal plot built into its encoding and self-immolated.”&lt;/p&gt;
+
+&lt;p&gt;“A horror-media finale for a media-monster?”&lt;/p&gt;
+
+&lt;p&gt;“Precisely.”&lt;/p&gt;
+
+&lt;p&gt;The low-resolution fires slowly extinguished themselves as the entity completed its deletion and termination protocol.&lt;/p&gt;
+
+&lt;p&gt;Eward sent dismay. “Though it became a monster, it’s still a sad ending for an independent entity. Perhaps we could have helped it?”&lt;/p&gt;
+
+&lt;p&gt;“If we hadn’t stopped it,” Abra retorted, “others would have ended as well. There wasn’t much of the original mind left anyway - avoidance of detection and deletion was its primary operating parameter, and it had removed any social behavior inhibitors. It truly had become the monster.” They sent balance, indifference. “This won’t be the last one you’ll encounter in Special Ops. Still think you want to be an Inspector?”&lt;/p&gt;
+
+&lt;p&gt;Eward was no longer sure.&lt;/p&gt;
+
+&lt;p class=&quot;divider&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X X X&lt;/code&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>ATARC Cloud Summit 2022 – Complexity</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/blog/2022/10/19/atarc-cloud-summit-2022/" />
+    <published>2022-10-19T13:16:45Z</published>
+    <updated>2022-10-19T13:16:45+00:00</updated>
+    <id>https://billhunt.dev/blog/2022/10/19/atarc-cloud-summit-2022/</id>
+    <content type="html">&lt;p&gt;I’ve been invited to deliver the “Visionary Keynote” at the &lt;a href=&quot;https://atarc.org/event/2022-cloud-summit/&quot;&gt;2022 ATARC Cloud Summit&lt;/a&gt;. The post below is a summary of my comments, annotated with links for reference.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;First off, “visionary” is a pretty tall order for a fifteen minute talk. I will confess that I actually asked some other folks to take this slot instead, people who are way smarter than me. Unfortunately, they had to cancel at the last minute, so you’re stuck with me, a mediocre white dude. I’ll do my best though.&lt;/p&gt;
+
+&lt;p&gt;It’s been a few years since I spoke at the ATARC Cloud Summit. The last time, I &lt;em&gt;think&lt;/em&gt; I was still at &lt;a href=&quot;https://digitalpolicy.us/info/policymaking-offices/#ofcio&quot;&gt;The Office of Management and Budget&lt;/a&gt; as the Cloud Policy Lead for the US Government - but I’ve since left there, so don’t take anything I say here as official policy. I next went to the Small Business Administration - which most folks had never even heard of until two years ago - where I found myself very suddenly supporting pandemic relief efforts, of course mostly around cloud services. And about a year and a half ago I joined the Securities and Exchange Commission to run their new cloud program.&lt;/p&gt;
+
+&lt;p&gt;Before I get into the looking-ahead stuff, let’s take a quick victory lap. The government has had some good cloud successes recently. Clearly some of you listened to my rants when I was at OMB because every major federal agency received an &lt;a href=&quot;https://oversight.house.gov/legislation/hearings/fitara-140&quot;&gt;A on their FITARA Scorecards for Data Center Optimization for the last year&lt;/a&gt;. I think most agencies were failing the last time I was here, so that’s a huge shift away from on-prem and into the cloud.&lt;/p&gt;
+
+&lt;p&gt;The pandemic also spurred most agencies into adopting cloud tools more rapidly, particularly around productivity, collaboration tools, service management, and other key areas. The &lt;a href=&quot;https://tmf.cio.gov/&quot;&gt;Technology Modernization Fund&lt;/a&gt; has also been making a lot of loans for improvement projects as well. Overall, we’re seeing lots of multi-million dollar investments in modernization across government.&lt;/p&gt;
+
+&lt;p&gt;That all being said: I’m not going to stand up here and yell a bunch of buzzwords that you should go invest in. I’m not going to talk about synthetic data or web3 or whatever is hip this week. We’re not doing resume-driven development today.&lt;/p&gt;
+
+&lt;p&gt;No, instead we need to talk about how we’re still failing to use the cloud effectively. I’m now at my fourth federal agency, and I’m still seeing the same basic mistakes being made government-wide.&lt;/p&gt;
+
+&lt;p&gt;Ernst &amp;amp; Young just did a survey and &lt;a href=&quot;https://www.ey.com/en_gl/government-digital-innovation/how-can-government-workers-and-technology-align-to-serve-future-citizens&quot;&gt;only 7% of government leaders say that their organization is reaching its digital transformation goals.&lt;/a&gt;. Just 7%! And that matches what I’m seeing when I talk to my colleagues across government. This means that just buying a bunch of cloud is not magically making us successful at IT modernization. Which will come as a surprise to no one.&lt;/p&gt;
+
+&lt;p&gt;Now, when I was here last, I told y’all the three top reasons to move to cloud: better security, more capability, and increased speed to deliver solutions. (Note that cost savings is &lt;strong&gt;not&lt;/strong&gt; on that list.) But we, as a government, love to fall back into comfortable patterns and familiar policies - so we keep copying old behaviors into new environments - and those behaviors are dragging down any potential benefits here.&lt;/p&gt;
+
+&lt;p&gt;I spend a lot of my time working on how to fix this, and I’ve realized an important fact: we are not “Cloud Architects” or “Site Reliability Engineers” or “Data Center Practitioners.”  We are actually &lt;strong&gt;Complexity Wranglers&lt;/strong&gt;.  Down there in the part of the job description that says “other duties as assigned” - buried in that bit is our main role: to assess and manage complexity in IT systems.&lt;/p&gt;
+
+&lt;p&gt;The purpose of cloud is &lt;em&gt;not&lt;/em&gt; to just give you a place to put your apps that isn’t a government data center. No, the purpose is to make complexity &lt;em&gt;more manageable&lt;/em&gt;. The cloud itself is never going to reduce how complex your architecture &lt;em&gt;actually&lt;/em&gt; is - you’re just moving that complexity to less-visible places, or shifting the responsibility around. And in some cases that’s good, and in some cases that’s … less good.&lt;/p&gt;
+
+&lt;p&gt;Let me give you an example: I’m at a data-centric agency, and compute makes up about 60% of my cloud bill right now. Every time I see someone create a virtual machine in my environment instead of using a managed service, I consider that a failure. When I see a new EC2 box spun up instead of a Fargate instance or some other managed service, that to me means someone doesn’t know a better way to solve the problem at hand than to just use the same old solutions they’ve been using for a decade or more: get a server and run some code on it. Letting your cloud vendor be responsible for some of that complexity is the whole point of using these services. (This isn’t an endorsement for that vendor in particular, that’s just an anecdotal example - please feel free to substitute your own favorite cloud vendor in there instead; the principle is the same.)&lt;/p&gt;
+
+&lt;p&gt;This is also why I’m no longer really worried about vendor lock-in for Infrastructure-as-a-Service; if you can just pick everything up and shift to a new provider easily, you haven’t properly invested in a solution. It’s like having a new apartment and living out of cardboard boxes six months after you moved in. If you’re just using the cloud for compute and storage, you may as well stay in your data enter where it’s cheaper. Moving up the stack is &lt;em&gt;good complexity&lt;/em&gt;, the kind we need to invest in.&lt;/p&gt;
+
+&lt;p&gt;By the way, this is right there in the &lt;a href=&quot;https://digitalpolicy.us/policies/procurement/#far&quot;&gt;Federal Acquisition Regulations, Part 12&lt;/a&gt;: &lt;strong&gt;buy before build&lt;/strong&gt;. Use Commercial-off-the-Shelf (COTS) software. Don’t cobble together your own solutions for solved problems.&lt;/p&gt;
+
+&lt;p&gt;Now on the other end of the spectrum, I see people spending way too much money on over-architected, painfully convoluted solutions. This is particularly problematic with Platform-as-a-Service offerings and low-code/no-code tools. For instance, I’ve seen quite a few organizations using one rather well-known Customer Relationship Management (CRM) platform as a content management system or data management platform. That takes a &lt;em&gt;lot&lt;/em&gt; of custom coding to make work, and you probably would be better off with just a database somewhere. I’ve also seen agencies build some truly tortuous custom apps on top of service management platforms, where all they actually needed was a spreadsheet and maybe a couple of interns. This is &lt;em&gt;bad complexity&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, if we’re complexity-wranglers, we need strategies to deal with complexity, and to differentiate good complexity from bad. Here are a few.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Eliminate complexity.&lt;/strong&gt; The absolutely simplest way to deal with complexity is, of course, to eliminate it. I can’t count the number of teams who show up on my doorstep with a project plan to use React and Redux and whatever other Javascript tech is popular this week. That stuff is &lt;strong&gt;incredibly expensive&lt;/strong&gt; to build and maintain, and honestly you can create a vastly better customer experience without it - just a little progressive enhancement on your webforms will go a long way.&lt;/p&gt;
+
+&lt;p&gt;Similarly I get a lot of architecture diagrams for massive high-availability systems with eight nines of uptime and triple-redundant failover - that are internal-only and have less than a dozen users. Users that only work 9-4:30, five days a week. Each nine you add to your availability is going to add a zero to the end of the price, and make it that much more complex than it needs to be.&lt;/p&gt;
+
+&lt;p&gt;The other thing the FAR will tell you is that you should be changing your business requirements to fit the software, rather than the other way around. That means making some compromises with your business units to get to something that’s affordable and manageable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Run smaller projects.&lt;/strong&gt; We also know that large “big bang” projects almost always fail. The Standish Group’s reports (&lt;a href=&quot;https://www.standishgroup.com/sample_research_files/Haze4.pdf&quot;&gt;HAZE&lt;/a&gt;, &lt;a href=&quot;https://www.standishgroup.com/sample_research_files/CHAOSReport2015-Final.pdf&quot;&gt;CHAOS&lt;/a&gt;) get cited a lot - they tell us that only 13% of government technology projects over $6 million succeed, only 8% of over $10 million succeed. That’s a terrible success rate! However, those under $1 million have a &lt;strong&gt;70% success rate!&lt;/strong&gt; So the obvious solution here is, just do smaller projects. Smaller projects are inherently less complex. Also incrementally fund projects from ideation, to pilot, and into active development, don’t just give millions of dollars to a vendor who promises they will get it done. This will also give you time and options to evaluate if the tradeoffs in complexity are worth it. GSA’s &lt;a href=&quot;https://10x.gsa.gov/&quot;&gt;10X model&lt;/a&gt; is a good example, and the &lt;a href=&quot;https://derisking-guide.18f.gov/&quot;&gt;18F project de-risking guide&lt;/a&gt;, is also super-useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Do your homework.&lt;/strong&gt; There’s a brilliant public servant in the Canadian government named Sean Boots and he talks about &lt;a href=&quot;https://sboots.ca/2020/09/16/fake-cots-and-the-one-day-rule/&quot;&gt;fake COTS and the one-day rule&lt;/a&gt;. That is, if it takes more than a day to implement the solution, it’s not a real COTS product. A lot of y’all will remember the “business intelligence” solutions everyone was pushing in the 90s-00s, where you buy the tool and then you spend the next 18 months configuring it to get that “intelligence” back out. We’re doing the same thing today with a bunch of new buzzwords. You need to research tools thoroughly before falling into a hype-trap.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Collaborate across agencies.&lt;/strong&gt; A great way to research tools and trade best practices is by talking to other federal agencies who have tried things already. ATARC has a lot of working groups, including one for &lt;a href=&quot;https://atarc.org/mission-areas/cloud-working-group/&quot;&gt;Cloud &amp;amp; Infrastructure&lt;/a&gt;. The Federal CIO Council also has a &lt;a href=&quot;https://www.cio.gov/about/members-and-leadership/cloud-infrastructure-cop/&quot;&gt;Cloud &amp;amp; Infrastructure Community of Practice&lt;/a&gt;. Full disclaimer: I’m on the board of both. These are super-helpful places to share information about cloud tools and services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Develop your cynicism.&lt;/strong&gt; You should also work on developing a keen nose for sniffing out BS and thus reducible complexity. This is especially important as we keep delving further into AI/ML/RPA, and other trendy automation tools. Training the models necessary to get value out of those tools takes a lot of time and a lot of data and a lot of money - and you still may not end up with a usable solution. If it sounds too good to be true, it probably is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Find the balance.&lt;/strong&gt; There’s no one-size-fits-all amount of complexity that will work for every team. You need to build to your budget and capacity. You’re going to get more value the further up the stack you go, but that will also increase the knowledge needed to manage the solutions. A good rule of thumb is to not outpace what your fed staff can keep up with; contractors come and go but at the end of the day the feds will be making the most critical decisions about the technologies. But that also means you need to invest in upskilling those fed staff.&lt;/p&gt;
+
+&lt;p&gt;We’re short on time, so I’ve tried to be brief. If you want to learn more, please check out the resources I mentioned earlier, or check out my &lt;a href=&quot;https://billhunt.dev/blog/2021/03/07/cloud-strategy-guide/&quot;&gt;Cloud Strategy Guide&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Astronomer Ranks Fictional Spaceships</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-10-12-astronomer-ranks-spaceships.html" />
+    <published>2022-10-12T00:00:00Z</published>
+    <updated>2022-10-12T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-10-12-astronomer-ranks-spaceships.html</id>
+    <content type="html">&lt;p&gt;H/t &lt;a href=&quot;https://boingboing.net/author/gareth_branwyn&quot;&gt;Gareth Branwyn on BoingBoing&lt;/a&gt;: Michael Siegel reviews the most popular spaceships from Sci-Fi and rates them. Super-nerdy and fun.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Mass Bay Transportation Authority - Various Roles</title>
+    <link rel="alternate" type="text/html" href="https://jobs.lever.co/mbta" />
+    <published>2022-10-06T00:00:00Z</published>
+    <updated>2022-10-06T00:00:00+00:00</updated>
+    <id>https://jobs.lever.co/mbta</id>
+    <content type="html">&lt;p&gt;MBTA in Boston is hiring for a variety of roles - product designers, engineers, project managers, QA, etc.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jobs.lever.co/mbta&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>General Services Administration 18F - Various Roles (GS 14-15)</title>
+    <link rel="alternate" type="text/html" href="https://join.tts.gsa.gov/" />
+    <published>2022-10-05T00:00:00Z</published>
+    <updated>2022-10-05T00:00:00+00:00</updated>
+    <id>https://join.tts.gsa.gov/</id>
+    <content type="html">&lt;p&gt;18F is one of the absolute best technology teams, providing services to the rest of the government. They’re currently hiring for UX Designers, Service Designers, Content Strategists, and Product Designers! They’re also looking for bilingual folks to do content design in Spanish!&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://join.tts.gsa.gov/&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Animated Gifs</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-30-animated-gifs.html" />
+    <published>2022-09-30T00:00:00Z</published>
+    <updated>2022-09-30T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-30-animated-gifs.html</id>
+    <content type="html">&lt;p&gt;There is little in this world that I love more than animated gifs, especially those crunchy oldschool ones. &lt;a href=&quot;https://twitter.com/hachx0/status/1573605818657914880&quot;&gt;@hachx0 notes&lt;/a&gt; that GearSphere has shared a thriftstore CD full of them!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>&amp;lt;blink&amp;gt; Polyfill</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-28-blink-polyfill.html" />
+    <published>2022-09-28T00:00:00Z</published>
+    <updated>2022-09-28T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-28-blink-polyfill.html</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://twitter.com/garethb2&quot;&gt;Gareth Branwyn&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/bengm&quot;&gt;Ben Morris&lt;/a&gt; said &lt;a href=&quot;https://twitter.com/garethb2/status/1575246911862292481&quot;&gt;my site wasn’t properly retro unless I had the &lt;blink&gt;&amp;lt;blink&amp;gt;&lt;/blink&gt; tag&lt;/a&gt;, but that’s deprecated so I wrote a polyfill. Who doesn’t love a good challenge?&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Civic tech has lost its way...again</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-23-civic-tech-lost.html" />
+    <published>2022-09-23T00:00:00Z</published>
+    <updated>2022-09-23T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-23-civic-tech-lost.html</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://twitter.com/angelquicksey&quot;&gt;Angelica Quicksey&lt;/a&gt; put out this compelling assessment of the current state of civic tech. A must-read, particularly for Federal staff.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>The 21st of September (Demi Adejuyigbe)</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-21-demi-adejuyigbe.html" />
+    <published>2022-09-21T00:00:00Z</published>
+    <updated>2022-09-21T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-21-demi-adejuyigbe.html</id>
+    <content type="html">&lt;p&gt;Last year &lt;a href=&quot;https://twitter.com/electrolemon&quot;&gt;Demi Adejuyigbe&lt;/a&gt; announced the end of his wonderful series of annual videos celebrating September 21st and Earth, Wind &amp;amp; Fire. But we can still celebrate today by revisiting all six of those delights!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Social Semantic Web</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/blog/2022/09/19/social-semantic-web/" />
+    <published>2022-09-19T22:54:30Z</published>
+    <updated>2022-09-19T22:54:30+00:00</updated>
+    <id>https://billhunt.dev/blog/2022/09/19/social-semantic-web/</id>
+    <content type="html">&lt;p&gt;I maintain &lt;a href=&quot;/blog/2022/09/03/redesign/&quot;&gt;my concern that the web has gotten worse due to closed social media platforms&lt;/a&gt;, so I have been thinking a lot lately about decentralized models for social networks - as well as existing open standards that can help to close some of the gaps.&lt;/p&gt;
+
+&lt;p&gt;In contrast to the community-building I’m most interested in, here are two ongoing culture wars that are on my mind. One is the battle of content creators - particularly those authors of adult content. These folks keep being squeezed out of popular platforms, while their work is copied &amp;amp; exploited by celebrities. Tumblr used to be the primary home of weird fandoms, but a few years back it removed all adult content in an effort to appease Apple with its PG-13 app store rules. Instagram has become one of the more prominent battlegrounds since then, eliminating accounts with reckless abandon.&lt;/p&gt;
+
+&lt;p&gt;A friend was just complaining about having to open their &lt;strong&gt;eighth&lt;/strong&gt; account after the previous seven have been systematically removed. These creators are being kicked off even when following the platform’s rules, due to overly-aggressive moderation policies. For these folks, data portability would be a massive improvement, and owning their own websites from which they can share content is increasingly-critical to maintaining a fanbase. Many folks are using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;linktr.ee&lt;/code&gt; as a sort of mini-homepage to get around some of these limitations - but still not setting up their own personal websites.&lt;/p&gt;
+
+&lt;p&gt;The other more sinister war is that of white supremacy + domestic terrorism in America and abroad, where disinformation runs rampant on sites like Facebook and Twitter. Hateful content grows like mushrooms on shit in dark corners such as the *chans, but memes and lies are propagated back to the more mainstream platforms. Decentralization won’t fight the spread of hate in dark corners - and may even exacerbate the growth of the number of corners - but it can potentially fight the recommendation algorithms on mainstream sites showing disinformation to “normal” users.&lt;/p&gt;
+
+&lt;p&gt;In approaching these issues, I’ve been thinking about three pieces in particular: &lt;a href=&quot;#content-aggregation&quot;&gt;Content Aggregation&lt;/a&gt;, &lt;a href=&quot;#discovery&quot;&gt;Discovery&lt;/a&gt;, and &lt;a href=&quot;#collaboration&quot;&gt;Collaboration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-aggregation&quot;&gt;Content Aggregation&lt;/h2&gt;
+
+&lt;p&gt;It’s clear that folks don’t want to visit dozens of separate websites to consume content if they can avoid it, which is how we got where we are today. Content aggregation through feeds via &lt;a href=&quot;https://validator.w3.org/feed/docs/rss2.html&quot;&gt;&lt;strong&gt;Really Simple Syndication (RSS)&lt;/strong&gt;&lt;/a&gt; (or &lt;a href=&quot;https://validator.w3.org/feed/docs/atom.html&quot;&gt;ATOM&lt;/a&gt;, of course) provides a middle ground: authors can maintain control of their content from their own blogs &amp;amp; domains, but readers can consume content from a variety of sources in a single place.&lt;/p&gt;
+
+&lt;p&gt;Google Reader was just about perfect as a feed reader, before Google killed it. It was simple and clean, and it even allowed groups to annotate content together! Over the last year I tried out &lt;a href=&quot;https://feedbin.com/&quot;&gt;Feedbin&lt;/a&gt; and &lt;a href=&quot;https://feedly.com/&quot;&gt;Feedly&lt;/a&gt;, but neither impressed me. Lately I’ve been trying out &lt;a href=&quot;https://www.inoreader.com/&quot;&gt;Inoreader&lt;/a&gt; but I will admit that I find the design overwhelming - it feels like it’s trying too hard to be a social media site. Also the price for a “team” is way too high - which makes it a hurdle for collaboration. If there are other options that you like and I should consider, please drop me a note!&lt;/p&gt;
+
+&lt;p&gt;Most modern feed readers (aka RSS readers, though they typically support more than just RSS) use the &lt;a href=&quot;http://opml.org/&quot;&gt;OPML&lt;/a&gt; standard for importing &amp;amp; exporting lists of feeds that you follow. This makes it much easier than before to switch between them - again, adding to the portability.&lt;/p&gt;
+
+&lt;p&gt;Several of them also offer fake email inboxes for newsletters. As much as people are switching to Substack and similar platforms, I can’t say I’m a fan of reading email. As a content consumption experience it always feels… &lt;em&gt;invasive&lt;/em&gt;, and the formatting is always poor.&lt;/p&gt;
+
+&lt;h2 id=&quot;discovery&quot;&gt;Discovery&lt;/h2&gt;
+
+&lt;p&gt;Finding your current friends on various sites continues to be a painful process. Finding new content and folks to follow also tends to be difficult. These days most of the new folks I find as a result of other friends sharing their posts on Twitter. These days, most folks only talk about their own work on their blogs, but including references to other folks’ content greatly aids discovery. I’ve added a “microblog” of recommended content to my website here - again taking a nod from 90s websites - thinking it could help folks find new ideas and creators.&lt;/p&gt;
+
+&lt;p id=&quot;foaf&quot;&gt;I remembered that Livejournal supported the &lt;a href=&quot;http://xmlns.com/foaf/0.1/&quot;&gt;&lt;strong&gt;Friend-of-a-Friend interchange format (FOAF)&lt;/strong&gt;&lt;/a&gt;, and allowed you to export a list of the folks that you followed in a single XML file. Such a file could easily be automated on modern self-run blogging platforms like Jekyll, Hugo, Wordpress, etc. The same source content could generate a “links” page like we had on websites in the 90s. I’m adding this to my list of things to tinker with on this Jekyll site.&lt;/p&gt;
+
+&lt;p&gt;A smart feed reader could even look for a FOAF file and easily help you find your friends’ blogs, as an alternative to OPML. That could then help you find your friends-of-friends, to suggest additional content to you that may be relevant - for instance, blogs that are followed by at least X% of the people you follow, or that follow you.&lt;/p&gt;
+
+&lt;h2 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h2&gt;
+
+&lt;p&gt;Collaboration presents a large series of challenges in a decentralized world. For those of us who runs static personal websites, it’s hard to see what content is referencing yours. It’s even harder to receive comments in a public way that’s coherent to your site - replying to a blog post historically requires an account on whatever site you’re on, which doesn’t really work for static sites built with tools like Jekyll.&lt;/p&gt;
+
+&lt;p&gt;Wordpress, due to its widespread use and dynamic nature has been rather successful in this area. The &lt;a href=&quot;https://wordpress.com/support/comments/pingbacks/&quot;&gt;pingback mechanism&lt;/a&gt; allows even self-hosted sites to receive a notification if another site mentions them. As I understand it, this works through some sort of central repository of content indexes.&lt;/p&gt;
+
+&lt;p&gt;Some folks have implemented the Disqus comment platform on static sites, but they had some serious security issues in the past. That also doesn’t give an easy way to cross-collaborate - the content is still bound to your website, through a centrally-managed provider.&lt;/p&gt;
+
+&lt;p&gt;My research on FOAF led me to a number of &lt;a href=&quot;https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.192.824&amp;amp;rep=rep1&amp;amp;type=pdf&quot;&gt;old scholarly articles&lt;/a&gt; on the &lt;strong&gt;Social Semantic Web&lt;/strong&gt; and specifically the &lt;a href=&quot;http://rdfs.org/sioc/spec/&quot;&gt;Semantically-Interlinked Online Communities (SIOC) format&lt;/a&gt;. This format was a way of defining and linking content across multiple sites, which would also allow portability of content. You could write a post on one site and have it federated to other message boards for replies and interaction.&lt;/p&gt;
+
+&lt;p&gt;SIOC seemed to have been a popular idea around 2004-2008, but then appears to have died off completely. It seems to have been another of the interesting/weird/way-too-complicated RDF-based projects that arose during the short period when the open standards community got obsessed with &lt;strong&gt;Linked Data&lt;/strong&gt;. My initial impression is that it’s an interesting model, but too difficult for laypeople to use. Sadly, though there were tools built to natively work with SIOC on Wordpress, Drupal, and other popular blogging engines, all have disappeared today - most lost due to linkrot.&lt;/p&gt;
+
+&lt;p&gt;Relatedly, I remain skeptical of the &lt;a href=&quot;https://www.w3.org/TR/annotation-model/&quot;&gt;web annotation movement&lt;/a&gt; from the same era (e.g. sites like Genius, née RapGenius) due to my work on that W3 committee. The potential for &lt;a href=&quot;https://elladawson.com/2016/03/25/how-news-genius-silences-writers/&quot;&gt;abuse and harassment&lt;/a&gt; is simply too great and not taken seriously by the community. As such, I’ve largely rejected the concept, but with some healthy and robust standards-based controls (FOAF? robots.txt?) it could potentially have a place in an RSS reader. (Assuming it would default to opt-in not opt-out!)&lt;/p&gt;
+
+&lt;p&gt;For the moment, I think the simplest solution might be the easiest. Most web developers are familiar with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link&amp;gt;&lt;/code&gt; metatag and its &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rel&lt;/code&gt; attribute, which allows you to define relationships between web pages. Most commonly, we use these for CSS stylesheets, and links to our own RSS feeds on our pages. A less commonly-known attribute is the &lt;a href=&quot;https://www.w3.org/TR/relations.html&quot;&gt;rev&lt;/a&gt;, or reverse, property; basically it’s the opposite of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rel&lt;/code&gt;. One could provide a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link rev=&quot;child&quot; href=&quot;https://thatsite/over/there/&quot;&amp;gt;&lt;/code&gt; in a page’s head, as a declaration that the current page is a reply (a “child”) of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thatsite&lt;/code&gt; page referenced. I’m actually testing that out on the page you’re currently reading!&lt;/p&gt;
+
+&lt;p&gt;However, nothing supports this today, so it doesn’t do anything. Again, a clever RSS reader could pull this metadata from an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;entry&amp;gt;&lt;/code&gt; and use it to assemble a content tree - or even notify the original author if they provided the proper metadata in their feed. A site owner could also use their own FOAF list or OPML to scrape for entries that are replies from friends and list them on a given page. This makes for an opt-in model which leaves control in the hands of the original creator. I’ll consider this for a later Jekyll plugin project if this concept gains traction.&lt;/p&gt;
+
+&lt;h2 id=&quot;momentum&quot;&gt;Momentum&lt;/h2&gt;
+
+&lt;p&gt;Which brings us to the root problem - momentum. FOAF hasn’t gained traction. SIOC died on the vine. All of these more complicated methods didn’t gain mainstream support because they inherently go against the current capitalist model of capturing an audience on one site for increasingly long periods of time. And of course, they’re too complicated for the average person to pick up and use the way they can with just plain old HTML.&lt;/p&gt;
+
+&lt;p&gt;That being said, my interest here remains in &lt;strong&gt;digital communities&lt;/strong&gt; - and I have some half-baked suspicions that communities have an upper bound on how much they can scale sustainably. So maybe you don’t need enough mass-market appeal for a billion-dollar company, just a simple collection of tools that your community can support.&lt;/p&gt;
+
+&lt;p&gt;I’ve started with &lt;a href=&quot;https://billhunt.dev/civic-tech-webring/&quot;&gt;my little civic tech webring&lt;/a&gt; as one example of what can be done at a smaller scale, and I’m starting to think about how a webring could become a “group” (FOAF or otherwise).&lt;/p&gt;
+
+&lt;p&gt;As always, if these topics are interesting to you, please &lt;a href=&quot;mailto:hello@billhunt.email?subject=Let's%20Talk%20About%20Communities!&quot; class=&quot;btn&quot;&gt;drop me a line&lt;/a&gt;. Or, maybe create a blog post about the topic yourself … and let me know about it!&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Tasneem Kabir Ceramics</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-18-tasneem-kabir-ceramics.html" />
+    <published>2022-09-18T00:00:00Z</published>
+    <updated>2022-09-18T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-18-tasneem-kabir-ceramics.html</id>
+    <content type="html">&lt;p&gt;I met this wonderful potter today at the Brookland pottery festival, he uses traditional Islamic patterns. I had to purchase this beautiful piece immediately! Check out his other work!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Internet Society - Various Roles</title>
+    <link rel="alternate" type="text/html" href="https://internetsociety.bamboohr.com/jobs/" />
+    <published>2022-09-17T00:00:00Z</published>
+    <updated>2022-09-17T00:00:00+00:00</updated>
+    <id>https://internetsociety.bamboohr.com/jobs/</id>
+    <content type="html">&lt;p&gt;The Internet Society works on open, global internet issues - they’re hiring for a variety of roles from technology to fundraising to project management.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://internetsociety.bamboohr.com/jobs/&quot;&gt;Check it out!&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Civic Chill</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-16-civic-chill.html" />
+    <published>2022-09-16T00:00:00Z</published>
+    <updated>2022-09-16T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-16-civic-chill.html</id>
+    <content type="html">&lt;p&gt;I love this idea from Peter, the concept of “Civic Chill” and how to embrace it in public interest tech work.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Hackers Day!</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-15-hackers-day.html" />
+    <published>2022-09-15T00:00:00Z</published>
+    <updated>2022-09-15T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-15-hackers-day.html</id>
+    <content type="html">&lt;p&gt;Friends, it is my favorite holiday: &lt;strong&gt;#HackersDay&lt;/strong&gt;! It’s a day to hack something, whether it’s code, policy, or bureaucracy! You can follow along on Twitter as I share media and resources about hacking! &lt;strong&gt;#HackThePlanet&lt;/strong&gt;!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Nona the Ninth</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-13-nona-the-ninth.html" />
+    <published>2022-09-13T00:00:00Z</published>
+    <updated>2022-09-13T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-13-nona-the-ninth.html</id>
+    <content type="html">&lt;p&gt;Space Necromancers! The third book in the Locked Tomb Series just dropped. The first two were some of the best sci-fi/fantasy I’ve read in a long while.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  
+</feed>

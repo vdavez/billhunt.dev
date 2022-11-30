@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">Bill Hunt +++ Recommended Posts</title>
+  <link type="application/atom+xml" href="https://billhunt.dev/feed.xml" rel="self"/>
+  <link href="https://billhunt.dev/"/>
+  <updated>2022-11-30T13:51:00Z</updated>
+  <id>https://billhunt.dev/</id>
+  <author>
+    <name>Bill Hunt</name>
+    <email>hello@billhunt.email</email>
+  </author>
+  <rights type="text">All content copyright © Bill Hunt. All rights reserved.</rights>
+  <entry>
+    <title>Basecamp Moving Out Of The Cloud</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-11-04-basecamp-moving-out-of-cloud.html" />
+    <published>2022-11-01T00:00:00Z</published>
+    <updated>2022-11-01T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-11-04-basecamp-moving-out-of-cloud.html</id>
+    <content type="html">&lt;p&gt;I generally don’t like to repost DHH, but I saw this morning that Basecamp is moving out of the AWS Cloud because it’s not cost effective for them. For those of y’all who have read my &lt;a href=&quot;https://billhunt.dev/blog/2021/02/28/cloudbusting/&quot;&gt;Cloudbusting&lt;/a&gt; and &lt;a href=&quot;https://billhunt.dev/blog/2021/03/07/cloud-strategy-guide/&quot;&gt;Cloud Strategy Guide&lt;/a&gt; articles, this should sound familiar.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Run Your Own Social Network</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-11-01-run-your-own-social-network.html" />
+    <published>2022-11-01T00:00:00Z</published>
+    <updated>2022-11-01T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-11-01-run-your-own-social-network.html</id>
+    <content type="html">&lt;p&gt;With the implosion of Twitter, it’s a good time to revisit this post from &lt;a href=&quot;https://tinysubversions.com/&quot;&gt;Darius Kazemi&lt;/a&gt; on some of the philsophical aspects of running a Mastodon (or Hometown) server for your friends &amp;amp; colleagues!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Astronomer Ranks Fictional Spaceships</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-10-12-astronomer-ranks-spaceships.html" />
+    <published>2022-10-12T00:00:00Z</published>
+    <updated>2022-10-12T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-10-12-astronomer-ranks-spaceships.html</id>
+    <content type="html">&lt;p&gt;H/t &lt;a href=&quot;https://boingboing.net/author/gareth_branwyn&quot;&gt;Gareth Branwyn on BoingBoing&lt;/a&gt;: Michael Siegel reviews the most popular spaceships from Sci-Fi and rates them. Super-nerdy and fun.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Animated Gifs</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-30-animated-gifs.html" />
+    <published>2022-09-30T00:00:00Z</published>
+    <updated>2022-09-30T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-30-animated-gifs.html</id>
+    <content type="html">&lt;p&gt;There is little in this world that I love more than animated gifs, especially those crunchy oldschool ones. &lt;a href=&quot;https://twitter.com/hachx0/status/1573605818657914880&quot;&gt;@hachx0 notes&lt;/a&gt; that GearSphere has shared a thriftstore CD full of them!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>&amp;lt;blink&amp;gt; Polyfill</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-28-blink-polyfill.html" />
+    <published>2022-09-28T00:00:00Z</published>
+    <updated>2022-09-28T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-28-blink-polyfill.html</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://twitter.com/garethb2&quot;&gt;Gareth Branwyn&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/bengm&quot;&gt;Ben Morris&lt;/a&gt; said &lt;a href=&quot;https://twitter.com/garethb2/status/1575246911862292481&quot;&gt;my site wasn’t properly retro unless I had the &lt;blink&gt;&amp;lt;blink&amp;gt;&lt;/blink&gt; tag&lt;/a&gt;, but that’s deprecated so I wrote a polyfill. Who doesn’t love a good challenge?&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Civic tech has lost its way...again</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-23-civic-tech-lost.html" />
+    <published>2022-09-23T00:00:00Z</published>
+    <updated>2022-09-23T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-23-civic-tech-lost.html</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://twitter.com/angelquicksey&quot;&gt;Angelica Quicksey&lt;/a&gt; put out this compelling assessment of the current state of civic tech. A must-read, particularly for Federal staff.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>The 21st of September (Demi Adejuyigbe)</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-21-demi-adejuyigbe.html" />
+    <published>2022-09-21T00:00:00Z</published>
+    <updated>2022-09-21T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-21-demi-adejuyigbe.html</id>
+    <content type="html">&lt;p&gt;Last year &lt;a href=&quot;https://twitter.com/electrolemon&quot;&gt;Demi Adejuyigbe&lt;/a&gt; announced the end of his wonderful series of annual videos celebrating September 21st and Earth, Wind &amp;amp; Fire. But we can still celebrate today by revisiting all six of those delights!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Tasneem Kabir Ceramics</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-18-tasneem-kabir-ceramics.html" />
+    <published>2022-09-18T00:00:00Z</published>
+    <updated>2022-09-18T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-18-tasneem-kabir-ceramics.html</id>
+    <content type="html">&lt;p&gt;I met this wonderful potter today at the Brookland pottery festival, he uses traditional Islamic patterns. I had to purchase this beautiful piece immediately! Check out his other work!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Civic Chill</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-16-civic-chill.html" />
+    <published>2022-09-16T00:00:00Z</published>
+    <updated>2022-09-16T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-16-civic-chill.html</id>
+    <content type="html">&lt;p&gt;I love this idea from Peter, the concept of “Civic Chill” and how to embrace it in public interest tech work.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Hackers Day!</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-15-hackers-day.html" />
+    <published>2022-09-15T00:00:00Z</published>
+    <updated>2022-09-15T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-15-hackers-day.html</id>
+    <content type="html">&lt;p&gt;Friends, it is my favorite holiday: &lt;strong&gt;#HackersDay&lt;/strong&gt;! It’s a day to hack something, whether it’s code, policy, or bureaucracy! You can follow along on Twitter as I share media and resources about hacking! &lt;strong&gt;#HackThePlanet&lt;/strong&gt;!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Nona the Ninth</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-13-nona-the-ninth.html" />
+    <published>2022-09-13T00:00:00Z</published>
+    <updated>2022-09-13T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-13-nona-the-ninth.html</id>
+    <content type="html">&lt;p&gt;Space Necromancers! The third book in the Locked Tomb Series just dropped. The first two were some of the best sci-fi/fantasy I’ve read in a long while.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Popula: Chicago City Bureau</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-09-11-popula-chicago-city-bureau.html" />
+    <published>2022-09-11T00:00:00Z</published>
+    <updated>2022-09-11T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-09-11-popula-chicago-city-bureau.html</id>
+    <content type="html">&lt;p&gt;This interview with &lt;a href=&quot;https://twitter.com/d_holli&quot;&gt;Darryl Holliday&lt;/a&gt; about free, public, local media is incredibly compelling. A very interesting civic model.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>10 Years with Hayao Miyazaki</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-08-24-10-years-with-hayao-miyazaki.html" />
+    <published>2022-08-24T00:00:00Z</published>
+    <updated>2022-08-24T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-08-24-10-years-with-hayao-miyazaki.html</id>
+    <content type="html">&lt;p&gt;NHK has a free documentary about the head of Studio Ghibli (Princess Mononoke, Spirited Away, Howl’s Moving Castle, etc.). Not as fun as his movies, but I enjoy his curmudgeonly charm.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Zelda: Link to the Past Romhacks</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-08-20-zelda-link-to-the-past-romhacks.html" />
+    <published>2022-08-20T00:00:00Z</published>
+    <updated>2022-08-20T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-08-20-zelda-link-to-the-past-romhacks.html</id>
+    <content type="html">&lt;p&gt;Feeling nostalgic for this 1992 classic game? Folks have created remixed versions that are fantastic. I’m enjoying &lt;strong&gt;Parallel Remodel&lt;/strong&gt; but it’s very hard!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>Tone Tags</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-08-17-tone-tags.html" />
+    <published>2022-08-17T00:00:00Z</published>
+    <updated>2022-08-17T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-08-17-tone-tags.html</id>
+    <content type="html">&lt;p&gt;I had seen &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/s&lt;/code&gt; for sarcasm in messages, but I didn’t know there’s a whole library of these! Very helpful for improving accessibility!&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>China's Bike-Share Graveyards</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-08-16-chinas-bike-share-graveyards.html" />
+    <published>2022-08-15T00:00:00Z</published>
+    <updated>2022-08-15T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-08-16-chinas-bike-share-graveyards.html</id>
+    <content type="html">&lt;p&gt;I’m a huge fan of bike-shares, and was saddened to see this photo essay on failed bike-share programs in China.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>IT Project Scope</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-08-09-it-project-scope.html" />
+    <published>2022-08-09T00:00:00Z</published>
+    <updated>2022-08-09T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-08-09-it-project-scope.html</id>
+    <content type="html">&lt;p&gt;Great article from Sean Boots on sizing IT projects to run between leadership turnover cycles.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  <entry>
+    <title>The Landscape of GovTech Work</title>
+    <link rel="alternate" type="text/html" href="https://billhunt.dev/recommended/2022-08-01-landscape-of-govtech-work.html" />
+    <published>2022-08-01T00:00:00Z</published>
+    <updated>2022-08-01T00:00:00+00:00</updated>
+    <id>https://billhunt.dev/recommended/2022-08-01-landscape-of-govtech-work.html</id>
+    <content type="html">&lt;p&gt;I’ve been sharing this article from &lt;a href=&quot;https://pluribusdigital.com/&quot;&gt;Pluribus Digital&lt;/a&gt; with folks a lot lately, it’s a great summary of how to get into government work.&lt;/p&gt;</content>
+    <category term="Recommended" />
+  </entry>
+  
+</feed>
